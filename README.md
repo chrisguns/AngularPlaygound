@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Running ESLint
+
+ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In this project, ESLint is used to maintain code quality and ensure consistency across the codebase.
+
+To run ESLint on the TypeScript files in this project, follow these steps:
+
+1. Open the terminal in your project directory.
+
+2. Run the following command:
+
+```bash
+npx eslint "**/*.ts"
