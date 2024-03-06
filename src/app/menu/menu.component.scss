@@ -1,10 +1,15 @@
-.menu__13-2 {
+.menu {
   box-sizing: border-box;
   border-radius: 0px;
   background-color: #ffffff;
   width: 96px;
   height: 1000px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
+    align-items: center;
 }
 .bg__13-3 {
   top: 0px;
