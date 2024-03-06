@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 
+/**
+ * FooterComponent is the component that represents the footer of the application.
+ *
+ * @class
+ * @public
+ */
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
 

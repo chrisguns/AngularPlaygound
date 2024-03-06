@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+/**
+ * Represents the landing component of the application.
+ */
 @Component({
   selector: 'app-landing',
   standalone: true,

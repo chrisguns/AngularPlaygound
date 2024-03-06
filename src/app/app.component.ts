@@ -3,6 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from "./navigation/navigation.component";
 import { FooterComponent } from "./footer/footer.component";
 
+/**
+ * AppComponent is the root component of the application.
+ *
+ * @class
+ * @public
+ */
 @Component({
     selector: 'app-root',
     standalone: true,
@@ -11,5 +17,10 @@ import { FooterComponent } from "./footer/footer.component";
     imports: [RouterOutlet, NavigationComponent, FooterComponent]
 })
 export class AppComponent {
-  title = 'my-app-2';
+  /**
+   * The title of the application.
+   *
+   * @public
+   */
+  title = 'anuglar-playgound';
 }

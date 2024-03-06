@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
 
+/**
+ * HomeComponent is the component that represents the home page of the application.
+ *
+ * @class
+ * @public
+ */
 @Component({
   selector: 'app-home',
-  standalone: true,
-  imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
 

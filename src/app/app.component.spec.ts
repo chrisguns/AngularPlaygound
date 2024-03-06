@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'my-app-2' title`, () => {
+  it(`should have the 'anuglar-playgound' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-app-2');
+    expect(app.title).toEqual('anuglar-playgound');
   });
 
   it('should render the navigation component', () => {
