@@ -20,10 +20,17 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('my-app-2');
   });
 
-  it('should render title', () => {
+  it('should render the navigation component', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, my-app-2');
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('app-navigation')).toBeTruthy();
+  });
+
+  it('should render the footer component', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('app-footer')).toBeTruthy();
   });
 });
